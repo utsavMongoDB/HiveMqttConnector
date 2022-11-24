@@ -35,7 +35,7 @@ app.post('/connect', (req, res) => {
     //setup the callbacks
     client_mqtt.on("connect", function () {
         // res.render('connectedPage')
-        res.status(200).send("MQTT Connection Established, Ready to recieve messages!")
+        res.status(200).send("MQTT connection established. Ready to recieve messages!")
         // Subscribe to topic 
         client_mqtt.subscribe(TOPIC);
         // Send message to IOT Hub
