@@ -1,0 +1,17 @@
+<div class="login-page">
+    <link rel="stylesheet" href="main.css">
+    <h1>
+        HiveMQ to Azure IoT Hub
+    </h1>
+    <div class="form">
+        <form action="/connect" method="post" class="login-form">
+            <input name="host" value="f1c1fba3af154c0ab45d23438110bc15.s2.eu.hivemq.cloud" type="text" placeholder="host" />
+            <input name="username" value="utsav.talwar@mongodb.com" type="text" placeholder="username" />
+            <input name="password" value="test12345" type="password" placeholder="password" />
+            <input name="port" value="8883" type="number" placeholder="port" />
+            <input name="connectionString" value="HostName=iiotdemo.azure-devices.net;DeviceId=iiot-demo-device;SharedAccessKey=DMU9/e2fieif1AFiER6dv/KMBqvRwPW97MjZTpPgrr8=" type="text" placeholder="IoT Hub connection string" />
+            <input name="topic" value="test_sub" type="text" placeholder="topic" />
+            <input type="submit" class="submit" value="Connect"/>
+        </form>
+    </div>
+</div>
