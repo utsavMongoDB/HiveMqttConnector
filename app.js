@@ -6,7 +6,7 @@ const Message = require('azure-iot-device').Message;
 const Protocol = require('azure-iot-device-mqtt').Mqtt;
 const bodyParser = require('body-parser');
 
-const port = 3000
+const port = 8080
 
 app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.urlencoded({ extended: true })); 
